@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#0d6e31</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#000000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="keyboard_bg">#e4e4e4</color>
+    <color name="keyboard_pager_bg">#dcdada</color>
+    <color name="background_toolbar">#0d6e31</color>
+
+</resources>

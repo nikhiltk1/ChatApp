@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/image_send"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:background="@drawable/button_green_round"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/layout_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_weight="2.5">
+
+                <TextView
+                    android:id="@+id/text_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nikhil"
+                    android:textColor="@color/black"
+                    style="@style/common_text"
+                    android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/text_last_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nikhil"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2" />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
